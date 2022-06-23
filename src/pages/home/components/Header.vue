@@ -47,12 +47,12 @@ export default {
       float: right
       text-align: center
       .one::after
-        border-left: .15rem solid transparent
-        border-right: .15rem solid transparent
-        border-top: .15rem solid #fff
         content: ""
         position: relative
         width: 0
         top: .22rem
         left: .05rem
+        border-left: .15rem solid transparent
+        border-right: .15rem solid transparent
+        border-top: .15rem solid #fff;
 </style>
