@@ -1,14 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\build",
     "\\src",
     "\\src\\assets",
-    "\\src\\pages",
     "\\src\\pages\\home",
     "\\src\\pages\\home\\components",
-    "\\src\\router"
+    "\\src\\router",
+    "\\static"
   ],
-  "SelectedNode": "\\src\\router\\index.js",
+  "SelectedNode": "\\static",
   "PreviewInSolutionExplorer": false
 }

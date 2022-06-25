@@ -2,7 +2,7 @@
   <div>
     <div class="title">周末去哪儿</div>
     <ul>
-      <li class="item" border-bottom v-for="item of recommendList" :key="item.id">
+      <li class="item" border-bottom v-for="item of list" :key="item.id">
         <div class="item-img-wrapper">
           <img :src="item.imgUrl" class="item-img" />
         </div>
@@ -18,25 +18,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1602/22/22b6ddfc418d0c3b90.water.jpg_710x360_a5202755.jpg',
-        title: '大连圣亚海洋世界',
-        desc: '浪漫大连首站，浪漫的海洋主题公园'
-      }, {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1602/22/22b6ddfc418d0c3b90.water.jpg_710x360_a5202755.jpg',
-        title: '大连圣亚海洋世界',
-        desc: '浪漫大连首站，浪漫的海洋主题公园'
-      }, {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1602/22/22b6ddfc418d0c3b90.water.jpg_710x360_a5202755.jpg',
-        title: '大连圣亚海洋世界',
-        desc: '浪漫大连首站，浪漫的海洋主题公园'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -44,14 +27,13 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/mixins.styl'
   .title
-    margin-top: .2rem
     line-height: .8rem
     background: #eee
     text-index: .2rem
   .item-img-wrapper
     overflow: hidden
     height: 0
-    padding-bottom: 33.9%
+    padding-bottom: 37.09%
   .item-img
     width: 100%
   .item-info
