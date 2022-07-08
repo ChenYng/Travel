@@ -36,8 +36,11 @@ export default {
       }
     }
   },
-  mounted () {
-    window.addEventListener('scroll', this.handleScroll, true)
+  activated () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    window.addEventListener('scroll', this.handleScroll)
   }
 }
 </script>

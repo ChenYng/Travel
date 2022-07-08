@@ -32,7 +32,7 @@ export default {
     background: url(http://s.quanarzz.com/piao/image/touch/sight/detail.png) 0 -.45rem no-repeat
     margin-right: .1rem
     background-size: .4rem 3rem
-  .item-title 
+  .item-title
     line-height: .8rem
     font-size: .32rem
     padding: 0 .2rem
