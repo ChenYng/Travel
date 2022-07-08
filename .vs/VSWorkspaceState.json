@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets\\styles",
+    "\\src\\common",
+    "\\src\\common\\gallery",
     "\\src\\pages",
-    "\\src\\pages\\city",
-    "\\src\\pages\\city\\components",
+    "\\src\\pages\\detail",
+    "\\src\\pages\\detail\\components",
+    "\\src\\pages\\home",
     "\\src\\pages\\home\\components",
-    "\\src\\router",
-    "\\static"
+    "\\src\\router"
   ],
-  "SelectedNode": "\\src\\pages\\city\\components\\List.vue",
+  "SelectedNode": "\\src\\pages\\detail\\components\\Header.vue",
   "PreviewInSolutionExplorer": false
 }
